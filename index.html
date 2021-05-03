@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIMAPI</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="onLoad()">
+    <div id="container" class="contaier" id= "container">
+    
+        <div class="block">
+            <div id="name"> </div> 
+            <div id="location"> </div>
+            <div id="description"></div>
+            <div id="temperature"></div>
+            <div></div>
+        </div>
+        <div class="block">
+            <div class="info-container">
+                Viento: 
+                <div class= "info" id="wind"></div>
+            </div>
+            <div class="info-container">
+                Humedad: 
+                <div class= "info" id="humidity"></div>
+            </div>
+            <div class="info-container">
+                Fecha: 
+                <div class= "info" id="date"></div>
+            </div>
+            
+            
+            
+        </div>
+   
+    </div> 
+
+    <div class="loader" id="loader">Cargando...</div>
+
+    <script src="main.js"></script>
+</body>
+</html>

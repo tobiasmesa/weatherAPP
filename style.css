@@ -1,0 +1,157 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+body {
+    background-color: #4c4c9dff ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #0f2a5c;
+    padding: 10vh;
+    display: none;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.block:first-child {
+    background-color:  #4c4c9dff;
+    color: aliceblue;
+}
+.contaier > .block {
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+}
+
+.info {
+    margin-left: 5px ;
+}
+
+#location {
+
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  background: #ffffff;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader {
+  color: #ffffff;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+
+
+
+
+/* /* CSS HEX *
+--queen-blue: #48639cff;
+--liberty: #4c4c9dff;
+--maximum-purple: #712f79ff;
+--antique-fuchsia: #976391ff;
+--atomic-tangerine: #f7996eff;
+
+/* CSS HSL *
+--queen-blue: hsla(221, 37%, 45%, 1);
+--liberty: hsla(240, 35%, 46%, 1);
+--maximum-purple: hsla(294, 44%, 33%, 1);
+--antique-fuchsia: hsla(307, 21%, 49%, 1);
+--atomic-tangerine: hsla(19, 90%, 70%, 1);
+
+/* SCSS HEX 
+$queen-blue: #48639cff;
+$liberty: #4c4c9dff;
+$maximum-purple: #712f79ff;
+$antique-fuchsia: #976391ff;
+$atomic-tangerine: #f7996eff;
+
+/* SCSS HSL 
+$queen-blue: hsla(221, 37%, 45%, 1);
+$liberty: hsla(240, 35%, 46%, 1);
+$maximum-purple: hsla(294, 44%, 33%, 1);
+$antique-fuchsia: hsla(307, 21%, 49%, 1);
+$atomic-tangerine: hsla(19, 90%, 70%, 1);
+
+/* SCSS RGB 
+$queen-blue: rgba(72, 99, 156, 1);
+$liberty: rgba(76, 76, 157, 1);
+$maximum-purple: rgba(113, 47, 121, 1);
+$antique-fuchsia: rgba(151, 99, 145, 1);
+$atomic-tangerine: rgba(247, 153, 110, 1);
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-right: linear-gradient(90deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-bottom: linear-gradient(180deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-left: linear-gradient(270deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-top-right: linear-gradient(45deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-bottom-right: linear-gradient(135deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-top-left: linear-gradient(225deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-bottom-left: linear-gradient(315deg, #48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+$gradient-radial: radial-gradient(#48639cff, #4c4c9dff, #712f79ff, #976391ff, #f7996eff);
+
+
+*/
